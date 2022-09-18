@@ -11,7 +11,6 @@ struct Config {
             const std::string build_type = "",
             const std::string build_version_release = "",
             const std::string build_version_release_or_codename = "",
-            const std::string debuggable = "",
             const std::string manufacturer_name = "",
             const std::string product_name = ""
     ) : build_fingerprint(build_fingerprint),
@@ -20,7 +19,6 @@ struct Config {
         build_type(build_type),
         build_version_release(build_version_release),
         build_version_release_or_codename(build_version_release_or_codename),
-        debuggable(debuggable),
         manufacturer_name(manufacturer_name),
         product_name(product_name) {}
 
@@ -30,7 +28,6 @@ struct Config {
     const std::string build_type;
     const std::string build_version_release;
     const std::string build_version_release_or_codename;
-    const std::string debuggable;
     const std::string manufacturer_name;
     const std::string product_name;
 
